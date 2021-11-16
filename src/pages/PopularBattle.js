@@ -44,8 +44,7 @@ class PopularBattle extends Component {
     console.log(currentBattle)
     return ( 
       <div className="container">
-        <h1 className="my-5 text-center">Popular Battle</h1>
-        <h2 className="my-5 text-center">Select a card to battle it with its neighbour</h2>
+        
 
         <div className="d-flex flex-wrap justify-content-center">
           {movies.map((movie, index) => {
@@ -63,7 +62,6 @@ class PopularBattle extends Component {
         </div>
           {currentBattle === 20 &&
             <div className="my-5 text-center">
-              <h2>You have seen all the films!</h2>
             </div>
           }
 

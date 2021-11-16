@@ -26,7 +26,7 @@ class Popular extends Component {
 
     return (
       <div className="container">
-        <h1 className="my-5 text-center">Popular</h1>
+        <h1 className="my-5 text-center">Populaire</h1>
 
         <div className="d-flex flex-wrap justify-content-center">
         {movies.map(movie => (

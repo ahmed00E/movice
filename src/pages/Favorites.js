@@ -1,13 +1,11 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 
-class Favorites extends Component {
+export default class Favorites extends Component {
   render() {
     return (
-      <>
+      <div>
         
-      </>
-    );
+      </div>
+    )
   }
 }
-
-export default Favorites;
